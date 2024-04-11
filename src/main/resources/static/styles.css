@@ -1,0 +1,41 @@
+p {
+    margin: 0;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.elemento {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    gap: 1rem;
+    border: 1px solid #ddd;
+    align-items: center;
+}
+
+.elemento .elemento__key {
+    font-weight: bold;
+    padding: .5rem;
+}
+
+.elemento .elemento__value {
+    padding: .5rem;
+    border-left: 1px solid #ddd;
+}
+
+.form__input {
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.palabra-encontrada {
+    margin:1rem 0;
+}
+
+.palabra-encontrada .palabra-encontrada__grid {
+    display: flex;
+    gap: 1rem;
+}
