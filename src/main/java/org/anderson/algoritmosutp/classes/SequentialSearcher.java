@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SequentialSearcher implements Search {
-
     @Override
     public int search(Word[] words, String query) {
         int posicion = -1;
